@@ -1,0 +1,56 @@
+header{
+    display: grid;
+    justify-content: center;
+    background-color: blueviolet;
+    color: white;
+    height: 80px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    
+}
+/* first step content */
+
+.first-view{
+    display: flex;
+    align-items: center; 
+    border: 1px solid skyblue;  
+    
+}
+.view{
+    width: 50%;
+    padding-left: 70px;
+}
+.view img{
+    width: 400px;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.link-button{
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    
+}
+.fa-arrow-right{
+    padding-left: 5px;
+}
+/* second-view */
+hr{
+    color: skyblue;
+    
+}
+
+.second-view{
+    padding-left: 25%;
+}
