@@ -1,4 +1,7 @@
-header{
+.container{
+    margin: 20px;
+}
+header {
     display: grid;
     justify-content: center;
     background-color: blueviolet;
@@ -9,15 +12,13 @@ header{
 body{
     font-family: 'Poppins', sans-serif;
 }
-.container{
-    
-}
-/* first step content */
+
+/*---------- first step content---------- */
 
 .first-view{
     display: flex;
     align-items: center; 
-    border: 1px solid skyblue;  
+     
     
 }
 .view{
@@ -29,6 +30,12 @@ body{
     padding-left: 60px;
     padding-top: 20px;
 }
+.view:hover img{
+    transform: scale(1) skew(-20deg);
+    transition: transform 3s;   
+
+}
+
 h1{
     font-size: 40px;
     font-weight: 700;
@@ -45,12 +52,76 @@ h1{
 .fa-arrow-right{
     padding-left: 5px;
 }
-/* second-view */
+/* --------------logo view------------- */
 hr{
-    color: skyblue;
+    color: rgba(222, 184, 135, 0.371);
+    margin-top: 50px;
+    
     
 }
 
 .second-view{
+    margin-top: 40px;
     padding-left: 25%;
+}
+/*-------------- product---------------- */
+.Accessories{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    
+}
+.All-products{
+    margin-top: 40px;
+    margin-left: 40px;   
+
+
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px; 
+    grid-column-gap: 20px;
+   
+
+}
+
+.product .product-pic img{
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;   
+    
+    
+}
+.product{
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px skyblue;
+    margin-top: 5%;
+    overflow: hidden;   
+
+}
+.product:hover  img{
+    transform: scale(1) skew(-20deg);
+    transition: transform 3s;
+}
+.product:hover .about-product{
+    transform: scale(1) skew(5deg);
+    transition: transform 2s;
+}
+.about-product{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    
+}
+.fa-star.filled{
+    color: gold;
+}
+/* ----------footer---------- */
+footer{
+    text-align: center;
+    background-color: blueviolet;
+    color: snow;
+    margin-top: 5%;
+    
 }
