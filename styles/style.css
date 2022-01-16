@@ -15,7 +15,7 @@ body{
 
 /*---------- first step content---------- */
 
-.first-view{
+.Views{
     display: flex;
     align-items: center; 
      
@@ -62,7 +62,10 @@ hr{
 
 .second-view{
     margin-top: 40px;
-    padding-left: 26%;
+    padding-left: 20%;
+}
+.logo-gap{
+    margin-left: 30px;
 }
 /*-------------- product---------------- */
 .Accessories{
@@ -73,7 +76,7 @@ hr{
 }
 .All-products{
     margin-top: 40px;
-    margin-left: 40px;   
+    margin-left: 20px;   
 
 
 }
@@ -125,3 +128,11 @@ footer{
     margin-top: 5%;
     
 }
+
+
+
+        
+        
+  
+    
+
